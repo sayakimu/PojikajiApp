@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">-->
+
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="家事概要">
+    </TextView>
+　　
+       <!--家事タイトル、ごほうび額、単位入力箇所-->
+  <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <ImageView
+          android:src="@drawable/frame_shape"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:hint="家事タイトル">
+   </EditText>
+  </FrameLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+           <ImageView
+               android:src="@drawable/frame_shape"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+       　　<EditText
+               android:id="@+id/kaji_reward"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:hint="ごほうび"
+           android:layout_weight="1">
+       　　</EditText>
+           </FrameLayout>
+
+           <EditText
+               android:id="@+id/reward_unit"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:hint="単位"
+               android:layout_weight="1">
+           </EditText>
+       </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:hint="内容">
+        </TextView>
+
+       <!--家事内容入力箇所-->
+       <FrameLayout
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       <ImageView
+           android:src="@drawable/frame_shape"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+       <EditText
+           android:id="@+id/kaji_detail"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginVertical="200dp">
+       </EditText>
+       </FrameLayout>
+　　　　
+       <!--写真動画追加箇所-->
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+
+           　　<TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:hint="写真">
+           　　</TextView>
+
+           <ImageButton
+               android:src="@drawable/add_icon"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </ImageButton>
+           <ImageButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </ImageButton>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+
+           　　<TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:hint="動画">
+           　　</TextView>
+
+           <ImageButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </ImageButton>
+           <ImageButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </ImageButton>
+       </LinearLayout>
+
+    </LinearLayout>
+
+<!--</ScrollView>-->
+

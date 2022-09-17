@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PojikajiApp</string>
+    <string name="login">ログイン</string>
+    <string name="new_registration">新規登録</string>
+    <string name="nickname">ニックネーム</string>
+    <string name="password">パスワード</string>
+    <string name="select_icon_color">アイコンの色を選択</string>
 </resources>
